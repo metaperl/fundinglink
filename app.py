@@ -8,13 +8,13 @@ class RogerPersonal(Loan):
         return """No income or employment verification needed!"""
         
     def forms_of_capital(self):
-        pass
+        return "Lines of credit, installment loans and credit cards."
         
     def payment_terms(self):
         pass
         
     def amount(self):
-        return "up to 250k"
+        return range(0, 250)
         
     def success_fee(self):
            
